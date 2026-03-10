@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  /* background-color: black; */
+  box-sizing: border-box;
+
+  /* color: white; */
+background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/fantasy-city-926909.jpeg');
+background-position:top;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
+color: white;
+}
+
+#heading{
+  margin-bottom: 50px;
+  font-family:fantasy;
+  font-size: 100px;
+  text-align: center;
+  color: transparent;
+  background-image: url('./images/fractal-waves-14619095571AU.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  background-color: transparent;
+  filter: brightness(2);
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container .row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .row .form{
+ width: 50%;
+}
+
+.container .row .form form #labl1{
+    /* margin-top: 20px; */
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  /* text-align: center; */
+  color: transparent;
+  background-image: url('./images/fractal-waves-14619095571AU.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  background-color: transparent;
+  filter: brightness(2);
+  display: block;
+}
+
+
+.container .row .form form #user_date_of_birth{
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+  width: 100%;
+    color: transparent;
+  background-image: url('./images/wp6314665-glowing-plankton-wallpapers.jpg');
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  /* background-color: transparent; */
+  filter: brightness(2);
+  font-size: 17px;
+  border: none;
+  outline: none;
+  
+}
+
+.container .row .form form #user_date_of_birth:hover{
+  border: 2px solid;
+  border-image-source: url('/images/wp6314665-glowing-plankton-wallpapers.jpg');
+  border-image-slice: 20;
+  border-image-repeat: round;
+  background-color: transparent;
+  outline: none;
+
+}
+.container .row .form form #calculate_age{
+  border: none !important;
+  outline: none !important;
+  width: 100% !important;
+  padding: 20px 0 !important;
+  background: #66FFFF !important;
+  cursor: pointer !important;
+  display: block !important;
+  color: rgb(96, 99, 100);
+  
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.container .row .form form #show{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+
+}
+.container .row .form form #show p{
+
+  color: #b8f0f0fc ;
+}
+.container .row .form form #calculate_age_div {
+  margin-top: 20px;
+  width: 100% !important;
+  background-color:#66FFFF !important;
+  display: block !important;
+} 
+
+@media (max-width: 1200px){
+  #heading {
+    font-size: 70px !important;
+  }
+.container .row .form form #show{
+  font-size: 20px;
+
+}
+}
+@media (max-width: 1025px){
+  #heading {
+    font-size: 40px !important;
+  }
+   .container .row .form form #labl1{
+   font-size: 20px; 
+  }
+   .container .row .form form #calculate_age{
+    font-size: 15px;
+    padding: 15px 0 !important;
+  }
+.container .row .form form #show{
+  font-size: 18px;
+
+}
+}
+
+@media (max-width: 769px){
+  #heading {
+    font-size: 30px !important;
+  }
+     .container .row .form form #labl1{
+   font-size: 15px; 
+  }
+     .container .row .form form #calculate_age{
+    font-size: 15px;
+    padding: 10px 0 !important;
+  }
+  .container .row .form form #user_date_of_birth{
+    font-size: 15px;
+  }
+  .container .row .form form #show{
+  font-size: 14px;
+
+}
+}
+
+
+
+
+@media (max-width: 481px){
+  #heading {
+    font-size: 12px !important;
+  }
+     .container .row .form form #labl1{
+   font-size: 12px; 
+  }
+     .container .row .form form #calculate_age{
+    font-size: 12px;
+    padding: 5px 0 !important;
+  }
+  .container .row .form form #user_date_of_birth{
+    font-size: 10px;
+  }
+    .container .row .form form #show{
+  font-size: 11px;
+
+}
+}
+
+@media (max-width: 360px){
+  #heading {
+    font-size: 10px !important;
+  }
+     .container .row .form form #labl1{
+   font-size: 9px; 
+  }
+     .container .row .form form #calculate_age{
+    font-size: 10px;
+    padding: 5px 0 !important;
+  }
+  .container .row .form form #user_date_of_birth{
+    font-size: 8px;
+  }
+    .container .row .form form #show{
+  font-size: 8px;
+
+}
+}
